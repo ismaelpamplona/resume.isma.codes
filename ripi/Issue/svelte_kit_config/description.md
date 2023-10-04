@@ -1,1 +1,0 @@
-# svelte_kit_config (Issue)
