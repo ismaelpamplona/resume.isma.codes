@@ -1,0 +1,328 @@
+Contact:
+  - Brasília, Brazil
+  - +5561981317178
+  - me@isma.codes
+
+Social:
+  - https://www.linkedin.com/in/ismael-pamplona/
+  - https://github.com/ismaelpamplona
+  - https://gitlab.com/ismaelpamplona
+  - https://leetcode.com/ismaelpamplona/
+
+About me:
+  I'm an inquisitive engineer, constantly learning and adapting. From Operations to Backend and Frontend roles, I've led teams and embraced diverse responsibilities. My experience as a founder instilled a knack for marrying promising tech with business value.
+
+  For the past 5 years, I've specialized in customer-centric web apps on cloud servers. The agility of crafting various applications, combined with my thirst for depth, empowers me to continually captivate users. I've written plenty of Python, Typescript, and various other technologies throughout my career, but when I discovered Rust a couple of years ago, I immediately fell in love with it.
+
+Experiences: 
+
+  - Title: Co-founder and Software Developer
+    Company: cwnt.io
+    From: Aug 2021
+    To: Present
+    City: Brasília
+    Country: Brazil
+    Description: One of the 4 founders of Planfy, a financial planning startup. Took active part on the creative architecture and led the technical teams, hired the core engineers and designed the product. As a founder I was co-responsible for fund-raising process - www.planfy.com.br.
+    
+    Projects:
+      - Title: Rip Issue
+        Description: This open-source software is a Rust-based CLI tool designed for agile management workflows. It facilitates efficient tracking and management of issues, sprints, epics, and initiatives in a distributed manner, utilizing both the filesystem and Git.
+        Technologies:
+          - asdf 
+          - rust
+          - cargo
+          - clap
+          - git2
+          - anyhow
+        Roles: 
+          - Developer
+          - Maintainer
+
+  - Title: Co-founder, CTO and Software Developer
+    Company: Planfy
+    From: Jan 2022
+    To: Present
+    City: Brasília
+    Country: Brazil
+    Description: One of the 4 founders of Planfy, a financial planning startup. Took active part on the creative architecture and led the technical teams, hired the core engineers and designed the product. As a founder I was co-responsible for fund-raising process - www.planfy.com.br.
+    
+    Projects:
+      - Title: Planfy Web App
+        Description: The Planfy Web App, accessible at www.app.planfy.com.br, is tailored for advisors guiding clients towards life goals, financial security products, and financial independence. Key functionalities encompass lead and prospect management, proposal handling, performance tracking of portfolios managed by Planfy Asset Management Company, client management, client life planning, an educational platform, a library of useful files, and goal attainment calculators for life objectives, financial independence, private pensions, and consortium.
+        Technologies:
+          - asdf 
+          - nodejs
+          - svelte
+          - typescript
+          - scss
+          - docker
+          - vite
+        Roles: 
+          - Developer
+
+      - Title: Planfy Mobile App
+        Description: Planfy's mobile app caters to end-users, facilitating financial planning within the Brazilian Open Finance Ecosystem. It encompasses features such as life planning for goal management, financial security, and independence. Users can effectively manage personal finances, set consumption goals, handle debts, centralize bank accounts, aggregate investments, and monitor their positions within the Planfy asset management company.
+        Technologies:
+          - asdf 
+          - nodejs
+          - svelte
+          - typescript
+          - capacitor
+          - scss
+          - docker
+          - vite
+        Roles: 
+          - Developer
+
+      - Title: Planfy web server
+        Description: The Planfy web server functions as a centralized hub, managing all communication with the frontend and enabling access to a diverse range of services and toolkits. These encompass third-party services, VLGI Asset API, Educational API, Face recognition, single sign-on strategies, cache strategies, Kanban APIs, and more. This pivotal component ensures a cohesive and smooth-running functionality throughout the platform.
+        Technologies:
+          - asdf 
+          - nodejs
+          - strapi
+          - typescript
+          - docker
+          - aws
+          - s3
+          - rds
+          - elastic-beanstalk
+        Roles: 
+          - Developer
+
+      - Title: Planfy Kanban Rest API
+        Description: A versatile API designed to cater to all Planfy kanbans, including prospects CRM and tasks management.
+        Technologies:
+          - asdf 
+          - nodejs
+          - nest
+          - typescript
+          - postgresql
+          - docker
+          - agile
+          - less
+          - scrum
+          - aws
+          - s3
+          - rds
+          - elastic-beanstalk
+        Roles: 
+          - Manager
+
+      - Title: Szot-ui
+        Description: Szot UI, an open-source design system UI library by Planfy, offers a comprehensive set of user interface components and resources. Explore it at https://team-tecnologia.gitlab.io/public-pkgs/szot-ui/ for an enhanced design experience.
+        Technologies:
+          - asdf 
+          - nodejs
+          - typescript
+          - svelte
+          - sveltekit
+          - storybook
+          - scss
+          - docker
+          - vite
+        Roles: 
+          - Developer
+
+  - Title: CTO and Software Developer
+    Company: Grupo Sozo
+    From: Nov 2019
+    To: Dec 2021
+    City: Brasília
+    Country: Brazil
+    Description: Grupo Sozo is a financial market conglomerate focused on financial advising and investments solutions through a technological approach. The company was founded 7 years ago and currently manage BRL 2.5 billion, providing services for more than 5 thousand clients. Companies - https://www.gruposozo.com.br, https://www.vlginvestimentos.com.br, https://vlgiasset.com.br, https://vlgivida.com.br and https://vlgicorporate.com.br.
+    
+    Projects:
+      - Title: VLGI Asset API
+        Description: VLGI Asset Restful API, catering to both internal applications and customer-facing ones.
+        Technologies:
+          - asdf 
+          - nodejs
+          - typescript
+          - nest
+          - postgresql
+          - docker
+          - agile
+          - less
+          - scrum
+          - aws
+          - s3
+          - rds
+          - elastic-beanstalk
+        Roles: 
+          - Manager
+          - Developer
+
+      - Title: VLGI HUB Web App
+        Description: The VLGI HUB Web App, accessible at https://hub.vlgi.com, empowers the Collaborators Application with features to access valuable files, BI Dashboards, and vital customer information such as birth reminders. Additionally, it integrates the **Super Ranking** (SR) methodology, aligning strategic direction with team goals, promoting engagement through commitment, data-driven management, and eligibility for partnership recognition. The API also facilitates Admin Management of users and seamlessly integrates with the proprietary Educational Platform.
+        Technologies:
+          - asdf 
+          - nodejs
+          - typescript
+          - riot
+          - svelte
+          - docker
+          - agile
+          - less
+          - scrum
+          - webpack
+        Roles: 
+          - Manager
+          - Developer
+
+      - Title: VLGI Investimentos Restful API
+        Description: VLGI Investimentos Restful API, catering to both internal applications and customer-facing ones.
+        Technologies:
+          - asdf 
+          - python
+          - flask
+          - python-eve
+          - postgresql
+          - agile
+          - less
+          - scrum
+          - aws
+          - s3
+          - rds
+          - elastic-beanstalk
+        Roles: 
+          - Manager
+          - Developer
+
+      - Title: Grupo Sozo Authentication Web Server
+        Description: Authentication server implementing JSON Web Token (JWT) for Grupo Sozo.
+        Technologies:
+          - asdf 
+          - nodejs
+          - express
+          - typescript
+          - jwt
+          - agile
+          - less
+          - scrum
+          - aws
+          - s3
+          - rds
+          - elastic-beanstalk
+        Roles: 
+          - Manager
+          - Developer
+
+      - Title: VLGI Investimentos Mobile APP
+        Description: The VLGI Investimentos Mobile App was designed to provide exclusive features for VLGI clients, encompassing podcasts, news (M1M / VLGI News), an events agenda, and a discount club. Although the first version was completed, the company made a decision to not release the app to the public.
+        Technologies:
+          - asdf 
+          - native-script
+          - svelte
+          - agile
+          - less
+          - scrum
+        Roles: 
+          - Manager
+
+      - Title: Mercado em 1 Minuto (M1M) / VLGI News
+        Description: Mercado em 1 Minuto (M1M) was a finance news portal that underwent a rebranding, transitioning to VLGI News after a couple of years. Unfortunately, the portal is no longer active.
+        Technologies:
+          - asdf 
+          - nodejs
+          - handlebars
+          - express
+          - redis
+          - docker
+          - agile
+          - less
+          - scrum
+          - heroku
+        Roles: 
+          - Manager
+          - Developer
+
+      - Title: Mercado em 1 Minuto API
+        Description: The Mercado em 1 Minuto (VLGI News) Restful API provided seamless access to financial news, allowing efficient retrieval and integration of real-time market updates and insights from the platform.
+        Technologies:
+          - asdf 
+          - nodejs
+          - strapi
+          - graphql
+          - agile
+          - less
+          - scrum
+          - heroku
+          - rss
+        Roles: 
+          - Manager
+          - Developer  
+
+  - Title: Techlead and Developer
+    Company: Grupo Milà
+    From: Jan 2019
+    To: Nov 2019
+    City: Brasília
+    Country: Brazil
+    Description: The Milà Group undertakes diverse Architecture and Engineering projects, ranging from houses to large buildings - https://grupoMilà.com.br/, https://www.arquiteturaemversos.com.br/.
+    
+    Projects:
+      - Title: Milà Web Server
+        Description: Milà web server functions as a centralized hub, managing all communication with the frontend and enabling access to a diverse range of services and toolkits. These encompass third-party services, Mila API, single sign-on strategies, cache strategies, and more.
+        Technologies:
+          - asdf 
+          - nodejs
+          - express
+          - mongodb
+        Roles: 
+          - Developer
+          - Manager
+
+      - Title: Milà Management Web App
+        Description: The Milà Management Web App, demo access at https://ismaelpamplona.gitlab.io/mila, empowers the Collaborators Application with features to access valuable files, BI Dashboards, construction costs management feature. The APP also facilitates Admin Management of users. Unfortunately, the app is no longer active.
+        Technologies:
+          - asdf 
+          - javascript
+          - riot
+          - redux
+          - redux-saga
+          - sass
+          - webpack
+        Roles: 
+          - Developer
+
+  - Title: Developer
+    Company: Basso's Real State Management App
+    From: Jul 2017
+    To: Dec 2018
+    City: Brasília
+    Country: Brazil
+    Description: Setedezessete is a Brazilian fashion brand specializing in exclusive design and in-house production of women's clothing - https://setedezessete.com/
+    
+    Projects:    
+      - Title: Setedezessete Management App
+        Description: A comprehensive system encompassing inventory management, efficient parts production, and seamless customer relationship management. This solution includes tailor-made order management functionality, allowing meticulous tracking of costs, monitoring the production process, and ensuring adherence to deadlines.
+        Technologies:
+          - asdf 
+          - python
+          - django
+          - mysql
+          - heroku
+          - mtv
+        Roles: 
+          - Developer          
+
+  - Title: Developer
+    Company: Setedezessete
+    From: Jan 2016
+    To: Jun 2017
+    City: Brasília
+    Country: Brazil
+    Description: Setedezessete is a Brazilian fashion brand specializing in exclusive design and in-house production of women's clothing - https://setedezessete.com/
+    
+    Projects:    
+      - Title: Setedezessete Management App
+        Description: A comprehensive system encompassing inventory management, efficient parts production, and seamless customer relationship management. This solution includes tailor-made order management functionality, allowing meticulous tracking of costs, monitoring the production process, and ensuring adherence to deadlines.
+        Technologies:
+          - asdf 
+          - python
+          - django
+          - mysql
+          - heroku
+          - mtv
+        Roles: 
+          - Developer
