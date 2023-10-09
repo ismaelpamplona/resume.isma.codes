@@ -3,5 +3,8 @@
 ## todo
 
 - [x] add Basso's Management System
-- [ ] add data projects
+- [x] add Planfy data projects
+- [x] add Planfy mgmnt process
+- [x] add UX/UI design process
+- [x] add vendji investor job
 - [ ] add linux ecosystem
