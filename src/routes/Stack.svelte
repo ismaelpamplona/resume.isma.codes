@@ -2,9 +2,15 @@
   export let data: {
     title: string
     data: {
+      description: string
       icon: string
       link: string
+      title: string
     }[]
+  }
+
+  function getYearFromIso(date: string): number {
+    return new Date(date).getFullYear()
   }
 </script>
 
@@ -12,7 +18,9 @@
 <ul>
   {#each data.data as s}
     <li>
-      <a target="_blank" href={s.link}><iconify-icon icon={s.icon} />{s.link.substring(8)}</a>
+      <a target="_blank" href={s.link}>
+        <iconify-icon icon={s.icon} />{s.description} | ({s.title})
+      </a>
     </li>
   {/each}
 </ul>

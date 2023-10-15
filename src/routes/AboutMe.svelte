@@ -1,11 +1,17 @@
 <script lang="ts">
-	export let data: {
-		title: string;
-		data: string[];
-	};
+  export let data: {
+    title: string
+    data: string[]
+  }
 </script>
 
 <h2>{data.title}</h2>
 {#each data.data as p}
-	<p>{p}</p>
+  <p>{p}</p>
 {/each}
+
+<style lang="scss">
+  p:first-of-type {
+    margin-bottom: 8px;
+  }
+</style>

@@ -2,13 +2,14 @@
 
 ## todo
 
-- [ ] favicon.png
+- [x] favicon.png
 - [x] read ats optimization articles
-- [ ] AboutMe.svelte
-- [ ] Contact.svelte
-- [ ] Education.svelte
-- [ ] Languages.svelte
-- [ ] Skills.svelte
-- [ ] Social.svelte
-- [ ] Tags.svelte
-- [ ] WorkExperience.svelte
+- [x] AboutMe.svelte
+- [x] Contact.svelte
+- [x] Education.svelte
+- [x] Languages.svelte
+- [x] Skills.svelte
+- [x] Social.svelte
+- [x] Tags.svelte
+- [x] WorkExperience.svelte
+- [ ] One click pdf generator npm package

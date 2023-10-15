@@ -1,61 +1,62 @@
 <script lang="ts">
-	import type { WorkExperience } from './types';
-	export let data: string[] | string[][];
-	export let type: string;
+  export let data: string[] | string[][]
+  export let type: string
+
+  export let title = ''
 </script>
 
 <ul class="tags">
-	{#if type === 'role'}
-		{#each data as tag}
-			<li class="tag-role">{tag}</li>
-		{/each}
-	{:else}
-		{#each data as tag}
-			<li class="tag-{type}">
-				<a class:pointer={tag[1]} target="_blank" href={tag[1]}>{tag[0]} </a>
-			</li>
-		{/each}
-	{/if}
+  {#if title !== ''}
+    {title}:
+  {/if}
+
+  {#if type === 'role'}
+    {#each data as tag}
+      {#if Array.isArray(tag)}
+        <li class="tag-role">{tag[0]}</li>
+      {:else}
+        <li class="tag-role">{tag}</li>
+      {/if}
+    {/each}
+  {:else}
+    {#each data as tag}
+      <li class="tag-{type}">
+        <a class:pointer={tag[1]} target="_blank" href={tag[1]}>{tag[0]} </a>
+      </li>
+    {/each}
+  {/if}
 </ul>
 
 <style lang="scss">
-	.pointer {
-		cursor: pointer;
-	}
-	.tags {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 5px;
+  .pointer {
+    cursor: pointer;
+  }
+  .tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
 
-		li {
-			list-style: none;
-			margin: 2.5px 0;
-			padding: 2px 6px;
-			border-radius: 5px;
-		}
+    a {
+      text-decoration: none;
+    }
 
-		.tag-tech {
-			background: #c1e2f3;
+    li {
+      list-style: none;
+      padding: 0 3px;
+      border-radius: 5px;
+    }
 
-			&:hover {
-				background: #a9def9;
-			}
-		}
+    .tag-tech {
+      background: #cbe1e7;
+    }
 
-		.tag-tool {
-			background: #ede7b1;
+    .tag-tool {
+      background: #cbe7df;
+    }
 
-			&:hover {
-				background: #ebe39a;
-			}
-		}
-
-		.tag-role {
-			background: #d3f8e2;
-
-			&:hover {
-				background: #b1f7cd;
-			}
-		}
-	}
+    .tag-role {
+      background: #bde5e6;
+    }
+  }
 </style>

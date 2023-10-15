@@ -1,65 +1,91 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import type { WorkExperience } from './types';
-	export let data: WorkExperience[];
-	import Tags from './Tags.svelte';
-	let skillData: WorkExperience[] = [];
+  import { onMount } from 'svelte'
+  import type { WorkExperience } from './types'
+  import Tags from './Tags.svelte'
+  export let data: WorkExperience[] = []
+  let skillData: WorkExperience[] = []
 
-	let set: Set<string> = new Set();
+  type info = {
+    date: Date
+    link: string
+  }
 
-	type ResultType = {
-		[key: string]: string[][]; // Add an index signature to allow any string key
-	};
+  let map = {
+    tech: new Map<string, info>(),
+    tools: new Map<string, info>(),
+    roles: new Map<string, info>()
+  }
 
-	let result: ResultType = {
-		technologies: ([] = []),
-		tools: ([] = [])
-	};
+  function updateMap(data: string[][] | string[], type: 'tech' | 'tools' | 'roles', from: string) {
+    const fromDate = new Date(from)
+    data.forEach((each) => {
+      let key = Array.isArray(each) ? each[0] : each
+      let value = map[type].get(each[0])?.date
+      let link = Array.isArray(each) && each[1] ? each[1] : ''
+      let date =
+        value !== undefined && new Date(value) < fromDate ? new Date(value) : new Date(from)
+      map[type].set(key, {
+        date,
+        link
+      })
+    })
+  }
 
-	function addToResult(data: string[][], type: string, years: string) {
-		data.forEach((each) => {
-			if (!set.has(each[0])) {
-				console.log(each[0]);
-				each[0] = `${each[0]} | ${years}`;
-				result[type].push(each);
-			}
-			set.add(each[0]);
-		});
-	}
+  let technologies: string[][] = []
+  let tools: string[][] = []
+  let roles: string[][] = []
 
-	function getYears(from: string, to: string): string {
-		const fromDate = new Date(from);
-		let toDate = new Date();
+  function getYears(from: Date): string {
+    let to = new Date()
 
-		const monthDiff =
-			(toDate.getFullYear() - fromDate.getFullYear()) * 12 +
-			toDate.getMonth() -
-			fromDate.getMonth();
+    const monthsDiff =
+      (to.getFullYear() - from.getFullYear()) * 12 + to.getMonth() - from.getMonth()
 
-		const lowerYear = Math.floor(monthDiff / 12);
-		const upperYear = Math.ceil(monthDiff / 12);
+    const lowerYear = Math.floor(monthsDiff / 12)
+    const upperYear = Math.ceil(monthsDiff / 12)
+    let ans = lowerYear !== upperYear ? `${lowerYear}-${upperYear} years` : `${lowerYear} years`
 
-		return `${lowerYear}-${upperYear} years`;
-	}
+    return lowerYear !== upperYear ? `${lowerYear}-${upperYear} years` : `${lowerYear} years`
+  }
 
-	onMount(() => {
-		console.log('Component mounted!');
-		skillData = JSON.parse(JSON.stringify(data));
+  const mapToArray = (map: Map<string, info>): string[][] => {
+    const arrayData: [string, info][] = Array.from(map.entries())
+    arrayData.sort((a, b) => a[1].date.getTime() - b[1].date.getTime())
+    const resultArray: string[][] = arrayData.map(([key, value]) => [
+      `${key} | ${getYears(value.date)}`,
+      value.link
+    ])
+    return resultArray
+  }
 
-		skillData.forEach((position) => {
-			const years = getYears(position.from, position.to);
-			position.jobs &&
-				position.jobs.data.forEach((job) => {
-					job.technologies && addToResult(job.technologies.data, 'technologies', years);
-					job.tools && addToResult(job.tools.data, 'tools', years);
-				});
-		});
-	});
+  onMount(() => {
+    skillData = JSON.parse(JSON.stringify(data))
+    skillData.forEach((position) => {
+      position.jobs &&
+        position.jobs.data.forEach((job) => {
+          job.technologies && updateMap(job.technologies.data, 'tech', position.from)
+          job.tools && updateMap(job.tools.data, 'tools', position.from)
+          job.roles && updateMap(job.roles.data, 'roles', position.from)
+        })
+    })
+    technologies = mapToArray(map.tech)
+    tools = mapToArray(map.tools)
+    roles = mapToArray(map.roles)
+  })
 </script>
 
-<h2>Tech Stack & Skills</h2>
-<Tags bind:data={result.technologies} type="tech" />
-<Tags bind:data={result.tools} type="tool" />
+<h2>Tech Stack, Tools & Skills</h2>
+<div class="container">
+  <Tags bind:data={technologies} type="tech" />
+  <Tags bind:data={tools} type="tool" />
+  <Tags bind:data={roles} type="role" />
+</div>
 
 <style lang="scss">
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 5px;
+  }
 </style>
