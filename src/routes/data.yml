@@ -1,13 +1,13 @@
 ---
 title:
   name: Ismael Pamplona
-  position: Software Engineer
+  position: Software Engineer and Rust Enthusiast
 
 contact:
   title: Contact
   city:
     icon: teenyicons:pin-outline
-    text: Brasília, Brazil
+    text: Brasilia, DF - Brazil | 71610035
   phone:
     icon: bi:phone
     text: '+5561981317178'
@@ -31,17 +31,17 @@ social:
 
 education:
   title: Education
-  data: 
+  data:
     - title: Bachelor of Business Administration
-      university: Universidade de Brasília - UnB
+      university: Universidade de Brasilia - UnB
       link: https://www.unb.br
-      city: Brasília
+      city: Brasilia
       state: DF
       country: Brazil
       from: 2005-01-01
       to: 2009-01-01
 
-    - title: Bachelor of Computer Science (incomplete)
+    - title: Bachelor of Computer Science (inc.)
       university: Universidade de Santa Catarina - UFSC
       link: https://ufsc.br
       city: Florianópolis
@@ -49,7 +49,7 @@ education:
       country: Brazil
       from: 2003-01-01
       to: 2005-01-01
-    
+
 languages:
   title: Languages
   data:
@@ -62,33 +62,66 @@ about:
     - With over a decade of experience in the technology industry, I'm an curious engineer, constantly learning and adapting. From Operations to Backend and Frontend roles, I've led teams and embraced diverse responsibilities. My experience as a founder instilled a knack for marrying promising tech with business value.
     - For the past 5 years, I've specialized in customer-centric web apps on cloud servers. The agility of crafting various applications, combined with my thirst for depth, empowers me to continually captivate users. I've written plenty of Python, Typescript, and various other technologies throughout my career, but when I discovered Rust a couple of years ago, I immediately fell in love with it.
 
-experience: 
+stack:
+  title: Daily Technology Stack
+  data:
+    - title: Operating System
+      description: Arch Linux
+      link: https://archlinux.org
+      icon: uil:linux
+    - title: Desktop Environment
+      description: KDE
+      link: https://kde.org
+      icon: ph:desktop
+    - title: Terminal multiplexer
+      description: Tmux
+      link: https://github.com/tmux/tmux
+      icon: tabler:terminal
+    - title: Code Editor
+      description: Visual Studio Code
+      link: https://code.visualstudio.com
+      icon: dashicons:editor-code-duplicate
+    - title: Issue Tracking
+      description: ripissue
+      link: https://crates.io/crates/ripissue
+      icon: material-symbols:manage-search
+    - title: Git Web UI
+      description: ungit
+      link: https://github.com/FredrikNoren/ungit
+      icon: teenyicons:git-outline
+    - title: Git Terminal UI
+      description: gitui
+      link: https://github.com/extrawurst/gitui
+      icon: teenyicons:git-outline
+
+experience:
   title: Work Experience
   data:
-  - title: Co-founder, CEO and Software Developer
+  - title: Co-founder and Software Developer
     company: cwnt.io
     from: 2021-08-01
     to: Present
-    city: Brasília
+    city: Brasilia
+    state: DF
     country: Brazil
-    description: 
-      - CWNT.io is an innovative IT firm specializing in investment management, utilizing advanced mathematical and statistical methodologies to design and execute cutting-edge investment programs. Our primary technological expertise lies in Rust.
-      - CWNT.io is at the forefront of leveraging technology to navigate the financial market, with a particular focus on the rapidly evolving web3 market. 
-      - The core competence lies in automating financial operations across a diverse range of assets, predominantly within the dynamic web market.
+    description:
+      - An IT company specializing in investment management, utilizing mathematical and statistical methodologies to design and execute cutting-edge investment algorithms, primarily written in Rust, with a focus on the web3 market (<a target='_blank' href='https://cwnt.io'>cwnt.io</a>).
+      # - CWNT.io is at the forefront of leveraging technology to navigate the financial market, with a particular focus on the rapidly evolving web3 market.
+      # - The core competence lies in automating financial operations across a diverse range of assets, predominantly within the dynamic web market.
     duties:
-      - One of the two founders of CWNT, contributing to its establishment and growth.
-      - Function as the CEO, formulating strategies and envisioning future scenarios for CWNT.
-      - Work as a developer on projects, primarily utilizing Rust programming language.
-      - Act as a maintainer for various projects within the company.
-    
+      title: Duties
+      data:
+        - One of the two founders of CWNT, contributing to its establishment and growth.
+        - Rust developer.
+
     jobs:
       title: Jobs
       data:
         - title: Rip Issue
-          description: This open-source software is a Rust-based CLI tool designed for agile management workflows. It facilitates efficient tracking and management of issues, sprints, epics, and initiatives in a distributed manner, utilizing both the filesystem and Git.
+          description: "Open-source Rust-based CLI tool designed for agile management workflows. It facilitates efficient tracking and management of issues utilizing the filesystem and git (<a target='_blank' href='https://crates.io/crates/ripissue'>crates.io/crates/ripissue</a>)"
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Rust
                 - https://www.rust-lang.org
               - - Git
@@ -96,75 +129,74 @@ experience:
               - - Github
                 - https://github.com
 
-          roles: 
+          roles:
             title: Roles
             data:
               - Developer
-              - Maintainer
 
   - title: Co-founder, CTO and Software Developer
     company: Planfy
     from: 2022-01-01
     to: Present
-    city: Brasília
+    city: Brasilia
+    state: DF
     country: Brazil
-    description: 
-      - Planfy is a dynamic company dedicated to empowering individuals on their financial journey, providing a digital ecosystem, investment management, and insurance brokerage for effective life planning.
-      - 'The life planning approach centers on three main pillars: financial independence, financial security, and goal achievement.'
-      - For planners, there's a comprehensive web solution streamlining client data collection and aiding in managing existing clients' life plans, as well as prospects.
-      - For end-users, there's a mobile app (iOS and Android) to manage life plans, consolidate financial data via the Brazilian open banking ecosystem, access and acquire products like insurance and managed portfolios, track expenses, manage debts, and more.
+    description:
+      - An IT company committed to empowering individuals on their financial journey, providing a digital ecosystem, investment management, and insurance brokerage for effective life planning (<a target='_blank' href='https://www.planfy.com.br/'>planfy.com.br</a>).
+      # - 'The life planning approach centers on three main pillars: financial independence, financial security, and goal achievement.'
+      # - For planners, there's a comprehensive web solution streamlining client data collection and aiding in managing existing clients' life plans, as well as prospects.
+      # - For end-users, there's a mobile app (iOS and Android) to manage life plans, consolidate financial data via the Brazilian open banking ecosystem, access and acquire products like insurance and managed portfolios, track expenses, manage debts, and more.
     duties:
-      - Co-founder, playing a vital role in the establishment and growth of Planfy.
-      - Co-responsible for fundraising efforts to support company growth and initiatives.
-      - Chief Technology Officer (CTO), overseeing technical aspects and driving technological innovations.
-      - Manager to oversee and guide the development team, ensuring efficient project execution and alignment with our strategic goals.
-      - Executive, involved in formulating strategies and envisioning future scenarios to guide the company's trajectory.
-      - Project reviewer, providing valuable insights and feedback for the enhancement of various company projects.
-      - Maintainer for multiple projects within the company, ensuring ongoing functionality and improvements.
-      - Hands-on developer, utilizing mostly Typescript and Python programming languages.
-    
+      title: Duties
+      data:
+        - Co-founder and CTO and co-responsible for fundraising efforts.
+        - Developer (Typescript, Python and SQL).
+
     jobs:
       title: Jobs
       data:
-        - title: Planfy Development Management Process
-          description: Planfy, following the Less (Large-Scale Scrum) model, employs Kanban to optimize large-scale project coordination. The Sprint Go is the sprint's core objective, divided into Epics defining products, Stories adding value, and Spikes for studies and planning. Tasks within Stories and a Bugs category for technical fixes ensure progress. Milestones mark development intervals, including releases and key checkpoints. Essential rituals like Product Backlog Refinement (PBR), General Review, Retrospective, and Planning uphold project quality and progress. Fronts focus on Requirements, Development, and Q&A. In UX/UI, stages encompass idea understanding, flow modeling, wireframing, component building, and prototyping. Validation ensures an optimized user experience and interface aligning with project needs.
+        - title: Development Management Process
+          description: Following the Less model, employs Kanban to optimize large-scale project coordination.
+          # The Sprint Go is the sprint's core objective, divided into Epics defining products, Stories adding value, and Spikes for studies and planning. Tasks within Stories and a Bugs category for technical fixes ensure progress. Milestones mark development intervals, including releases and key checkpoints. Essential rituals like Product Backlog Refinement (PBR), General Review, Retrospective, and Planning uphold project quality and progress. Fronts focus on Requirements, Development, and Q&A. In UX/UI, stages encompass idea understanding, flow modeling, wireframing, component building, and prototyping. Validation ensures an optimized user experience and interface aligning with project needs.
           tools:
             title: Tools
             data:
-              - - Agile 
+              - - Agile
               - - Scrum
-              - - Large Scale Scrum - Less
+              - - Less
                 - https://less.works
               - - Kanban
-              - - Ora Task Manager
+              - - Ora
                 - https://ora.pm
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
 
 
-        - title: Planfy Prototyping Studio - Crafting Seamless User Experiences (UX/UI)
-          description: This branch is dedicated to shaping user-centric experiences through a meticulously crafted design journey. Leveraging potent tools such as Adobe Creative Cloud (Photoshop and Illustrator) for advanced graphic design, Figma for collaborative design involving wireframes and prototypes, and BPMN for modeling business processes and user journeys, we follow a seven-step process from idea inception to the final prototype. This encompasses understanding the core idea and project objectives, detailing flow and mapping the user's journey within the application, creating wireframes that define structure and layout, validating them through testing and feedback, building interactive components and prototypes, validating the final prototype for alignment with the desired experience, and then seamlessly handing it off to the development team for feature implementation.
+        - title: UX/UI Studio
+          description: Dedicated to shaping user-centric experiences through a meticulously crafted design journey.
+          # Leveraging potent tools such as Adobe Creative Cloud (Photoshop and Illustrator) for advanced graphic design, Figma for collaborative design involving wireframes and prototypes, and BPMN for modeling business processes and user journeys, we follow a seven-step process from idea inception to the final prototype. This encompasses understanding the core idea and project objectives, detailing flow and mapping the user's journey within the application, creating wireframes that define structure and layout, validating them through testing and feedback, building interactive components and prototypes, validating the final prototype for alignment with the desired experience, and then seamlessly handing it off to the development team for feature implementation.
           tools:
             title: Tools
             data:
-            - - Adobe Creative Cloud
+            - - Adobe
               - https://www.adobe.com/creativecloud
             - - Figma
               - https://www.figma.com
             - - BPMN
               - https://www.bpmn.org
-          roles: 
+          roles:
             title: Roles
             data:
-              - Manager          
+              - Manager
 
-        - title: Planfy Mobile App
-          description: Planfy's mobile app caters to end-users, facilitating financial planning within the Brazilian Open Finance Ecosystem. It encompasses features such as life planning for goal management, financial security, and independence. Users can effectively manage personal finances, set consumption goals, handle debts, centralize bank accounts, aggregate investments, and monitor their positions within the Planfy asset management company.
+        - title: Mobile App
+          description: Supports end-users on financial planning in the Brazilian Open Finance Ecosystem.
+          # , including goal-based life planning, finance management, debt handling, and investment tracking.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Svelte
@@ -183,16 +215,17 @@ experience:
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
-              - Developer    
-    
-        - title: Planfy Web App
-          description: The Planfy Web App, accessible at www.app.planfy.com.br, is tailored for advisors guiding clients towards life goals, financial security products, and financial independence. Key functionalities encompass lead and prospect management, proposal handling, performance tracking of portfolios managed by Planfy Asset Management Company, client management, client life planning, an educational platform, a library of useful files, and goal attainment calculators for life objectives, financial independence, private pensions, and consortium.
+              - Manager
+
+        - title: Web App
+          description: Aids advisors in guiding clients towards life goals, financial security, and independence (<a target='blank' href='www.app.planfy.com.br'>app.planfy</a>).
+          # Features include lead/prospect management, proposal handling, portfolio performance tracking, client management, life planning, education, file library, and goal calculators for various objectives.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Svelte
@@ -209,86 +242,64 @@ experience:
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Developer
 
-        - title: Planfy Mobile App
-          description: Planfy's mobile app caters to end-users, facilitating financial planning within the Brazilian Open Finance Ecosystem. It encompasses features such as life planning for goal management, financial security, and independence. Users can effectively manage personal finances, set consumption goals, handle debts, centralize bank accounts, aggregate investments, and monitor their positions within the Planfy asset management company.
+        - title: Web server
+          description: Acts as a centralized hub, handling all communication with the frontend and facilitating access to services.
+          # These encompass third-party services, VLGI Asset API, Educational API, Face recognition, single sign-on strategies, cache strategies, Kanban APIs, and more.
           technologies:
-            title: Technologies
-            data: 
-              - - Nodejs
-                - https://nodejs.org
-              - - Svelte
-                - https://svelte.dev
-              - - Typescript
-                - https://www.typescriptlang.org
-              - - Capacitor
-                - https://capacitorjs.com
-              - - Sass
-                - https://sass-lang.com
-              - - Docker
-                - https://www.docker.com
-              - - Vite
-                - https://vitejs.dev
-              - - Git
-                - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
-          roles: 
-            title: Roles
+            title: Stack
             data:
-              - Developer
-
-        - title: Planfy web server
-          description: The Planfy web server functions as a centralized hub, managing all communication with the frontend and enabling access to a diverse range of services and toolkits. These encompass third-party services, VLGI Asset API, Educational API, Face recognition, single sign-on strategies, cache strategies, Kanban APIs, and more. This pivotal component ensures a cohesive and smooth-running functionality throughout the platform.
-          technologies:
-            title: Technologies
-            data: 
               - - Nodejs
                 - https://nodejs.org
               - - Strapi
                 - https://strapi.io
+              - - PostgreSQL
+                - https://www.postgresql.org
               - - Typescript
                 - https://www.typescriptlang.org
               - - Docker
                 - https://www.docker.com
-              - - AWS Elastic Load Balancing
+              - - AWS LB
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
+              - - Azure SQL DB
+                - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
-              - - AWS Elastic Beanstalk
+              - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Developer
 
-        - title: Planfy Data Chapter
-          description:         
-            The Planfy Data Chapter drives the company's strategy and decision-making through the creation and delivery of data products. It enhances customer experiences, maintains data infrastructure, and ensures data governance and quality. Key contributions include data democratization via a self-service analytics platform, a Data Lakehouse using Databricks (platform), Delta Lake (storage), Apache Spark (processing), and Deequ (data quality). PostgreSQL is employed as the database technology.             
-            Additionally, we've established a Data Science Environment utilizing sklearn (general-purpose machine learning library), xgboost (gradient boosting library), pyomo (mathematical optimization), streamlit (rapid data app sharing), kedro (data science framework), Great Expectations (data quality). These tools empower us to build machine learning models, optimize processes, and ensure data quality. The Chapter's innovations facilitate automated investment portfolio reallocation, financial planning generation, variable payment calculations, and revenue forecasting, ultimately supporting informed decision-making within the organization.
+        - title: Data Chapter
+          description: Drives strategy, creating data products, maintaining data infrastructure, and ensuring governance and quality.
+          # It enables data democratization via self-service analytics, utilizing a Data Lakehouse and provides also a Data Science Environment. Innovations support also automated investment portfolio reallocation, financial planning, payment calculations, and revenue forecasting.
           technologies:
-            title: Technologies
+            title: Stack
             data:
               - - Databricks
                 - https://www.databricks.com
               - - Delta Lake
                 - https://delta.io
-              - - Apache Spark 
+              - - Spark
                 - https://spark.apache.org
               - - PostgreSQL
                 - https://www.postgresql.org
               - - AWS S3
                 - https://aws.amazon.com/s3
+              - - Azure SQL DB
+                - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - AWS Deequ
@@ -299,9 +310,9 @@ experience:
                 - https://aws.amazon.com/sqs
               - - AWS SNS
                 - https://aws.amazon.com/sns
-              - - Apache Nifi
+              - - Nifi
                 - https://nifi.apache.org
-              - - Apache Airflow
+              - - Airflow
                 - https://airflow.apache.org
               - - Metabase
                 - https://www.metabase.com
@@ -322,19 +333,19 @@ experience:
               - - Gitlab
                 - https://gitlab.com
 
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
 
-        - title: Planfy Kanban Rest API
-          description: A versatile API designed to cater to all Planfy kanbans, including prospects CRM and tasks management.
+        - title: Kanban Rest API
+          description: Designed to cater to all kanbans, including prospects CRM and tasks management.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
-              - - NestJS
+              - - Nest
                 - https://nestjs.com
               - - Typescript
                 - https://www.typescriptlang.org
@@ -342,47 +353,36 @@ experience:
                 - https://www.postgresql.org
               - - Docker
                 - https://www.docker.com
-              - - AWS Elastic Load Balancing
+              - - AWS LB
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
+              - - Azure SQL DB
+                - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - Git
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
 
-        - title: Szot-ui
-          description: Szot UI, an open-source design system UI library by Planfy, offers a comprehensive set of user interface components and resources. Explore it at https://team-tecnologia.gitlab.io/public-pkgs/szot-ui/ for an enhanced design experience.
+        - title: SZOT-UI
+          description: "Open-source library of user interface components and resources: <a target='_blank' href='https://team-tecnologia.gitlab.io/public-pkgs/szot-ui'>szot-ui</a>."
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Typescript
                 - https://www.typescriptlang.org
-              - - Svelte
-                - https://svelte.dev
-              - - Sveltekit
-                - https://kit.svelte.dev
-              - - Storybook
-                - https://storybook.js.org
-              - - Sass
-                - https://sass-lang.com
-              - - Docker
-                - https://www.docker.com
-              - - Vite
-                - https://vitejs.dev
-              - - Git
-                - https://git-scm.com
+              - - SvelteAWS RDS
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Developer
@@ -391,67 +391,71 @@ experience:
     company: Grupo Sozo
     from: 2019-11-01
     to: 2021-12-01
-    city: Brasília
+    city: Brasilia
+    state: DF
     country: Brazil
-    description: 
-      - Grupo Sozo is a financial market conglomerate focused on financial advising and investments solutions through a technological approach. 
-      - The company was founded 7 years ago and currently manage BRL 2.5 billion, providing services for more than 5 thousand clients. 
-      - 'Companies: https://www.gruposozo.com.br, https://www.vlginvestimentos.com.br, https://vlgiasset.com.br, https://vlgivida.com.br and https://vlgicorporate.com.br.'
+    description:
+      - "A tech-driven financial conglomerate that manages BRL 2.5 billion, serving 5,000+ clients with advisory and investment solutions
+          (<a target='_blank' href='https://www.gruposozo.com.br'>gruposozo</a>,
+          <a target='_blank' href='https://www.vlginvestimentos.com.br'>vlginvestimentos</a>,
+          <a target='_blank' href='https://vlgiasset.com.br'>vlgiasset</a>,
+          <a target='_blank' href='https://vlgivida.com.br'>vlgivida</a> and
+          <a target='_blank' href='https://vlgicorporate.com.br'>vlgicorporate</a>)."
     duties:
-      - Chief Technology Officer (CTO), overseeing technical aspects and driving technological innovations.
-      - Manager to oversee and guide the development team, ensuring efficient project execution and alignment with our strategic goals.
-      - Executive, involved in formulating strategies and envisioning future scenarios to guide the company's trajectory, mostly in Technology.
-      - Project reviewer, providing valuable insights and feedback for the enhancement of various company projects.
-      - Maintainer for multiple projects within the company, ensuring ongoing functionality and improvements.
-      - Hands-on developer, utilizing mostly Typescript and Python programming languages.
+      title: Duties
+      data:
+        - Chief Technology Officer (CTO), overseeing technical aspects and driving technological innovations.
+        - Developer (Typescript, Python and SQL).
 
-    
     jobs:
       title: Jobs
       data:
-        - title: VLGI Asset API
-          description: VLGI Asset Restful API, catering to both internal applications and customer-facing ones.
+        - title: VLGI Asset Rest API
+          description: It serves internal and end-user-facing solutions.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Typescript
                 - https://www.typescriptlang.org
-              - - NestJS
+              - - Nest
                 - https://nestjs.com
               - - PostgreSQL
                 - https://www.postgresql.org
               - - Docker
                 - https://www.docker.com
-              - - AWS Elastic Load Balancing
+              - - AWS LB
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
+              - - Azure SQL DB
+                - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
-              - - AWS Elastic Beanstalk
+              - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
               - Developer
 
         - title: VLGI HUB Web App
-          description: The VLGI HUB Web App, accessible at https://hub.vlgi.com, empowers the Collaborators Application with features to access valuable files, BI Dashboards, and vital customer information such as birth reminders. Additionally, it integrates the **Super Ranking** (SR) methodology, aligning strategic direction with team goals, promoting engagement through commitment, data-driven management, and eligibility for partnership recognition. The API also facilitates Admin Management of users and seamlessly integrates with the proprietary Educational Platform.
+          description:  Provides collaborators with access to files, BI Dashboards, customer data, performance strategies features, educational platform, and more (<a target='_blank' href='https://hub.vlgi.com'>hub.vlgi.com</a>).
+          # It integrates Super Ranking (SR) methodology, aligning strategy with team goals, encouraging engagement, data-driven management, and eligibility for partnership recognition. The API allows Admin Management and seamless integration with the .
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Typescript
                 - https://www.typescriptlang.org
-              - - RiotJS
+              - - Riot
                 - https://riot.js.org
               - - Svelte
                 - https://svelte.dev
@@ -463,17 +467,17 @@ experience:
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
               - Developer
 
-        - title: VLGI Investimentos Restful API
-          description: VLGI Investimentos Restful API, catering to both internal applications and customer-facing ones.
+        - title: VLGI Investimentos Rest API
+          description: It serves internal and end-user-facing solutions.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Python
                 - https://www.python.org
               - - Flask
@@ -482,60 +486,67 @@ experience:
                 - https://docs.python-eve.org
               - - PostgreSQL
                 - https://www.postgresql.org
-              - - AWS Elastic Load Balancing
+              - - AWS LB
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
+              - - Azure SQL DB
+                - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
-              - - AWS Elastic Beanstalk
+              - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
               - Developer
 
-        - title: Grupo Sozo Authentication Web Server
-          description: Authentication server implementing JSON Web Token (JWT) for Grupo Sozo.
+        - title: Auth Web Server
+          description: JWT authentication web server.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - ExpressJS
                 - https://expressjs.com
               - - Typescript
                 - https://www.typescriptlang.org
+              - - PostgreSQL
+                - https://www.postgresql.org
               - - JWT
                 - https://jwt.io
-              - - AWS Elastic Load Balancing
+              - - AWS LB
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
+              - - Azure SQL DB
+                - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
-              - - AWS Elastic Beanstalk
+              - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
               - Developer
 
-        - title: VLGI Investimentos Mobile APP
-          description: The VLGI Investimentos Mobile App was designed to provide exclusive features for VLGI clients, encompassing podcasts, news (M1M / VLGI News), an events agenda, and a discount club. Although the first version was completed, the company made a decision to not release the app to the public.
+        - title: Mobile APP
+          description: Provides exclusive features for VLGI clients, encompassing podcasts, news (M1M / VLGI News), an events agenda, and a discount club.
+          # Although the first version was completed, the company made a decision to not release the app to the public.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - NativeScript
                 - https://nativescript.org
               - - Svelte
@@ -544,16 +555,16 @@ experience:
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
 
-        - title: Mercado em 1 Minuto (M1M) / VLGI News
-          description: Mercado em 1 Minuto (M1M) was a finance news portal that underwent a rebranding, transitioning to VLGI News after a couple of years. Unfortunately, the portal is no longer active.
+        - title: M1M / VLGI News
+          description: M1M was a financial news portal, rebranded to VLGI News, and is now inactive.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Handlebars
@@ -570,17 +581,17 @@ experience:
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+          roles:
             title: Roles
             data:
               - Manager
               - Developer
 
-        - title: Mercado em 1 Minuto API
-          description: The Mercado em 1 Minuto (VLGI News) Restful API provided seamless access to financial news, allowing efficient retrieval and integration of real-time market updates and insights from the platform.
+        - title: M1M Rest API
+          description: Provides real-time financial news access.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Strapi
@@ -594,36 +605,38 @@ experience:
                 - https://git-scm.com
               - - Gitlab
                 - https://gitlab.com
-          roles: 
+              - - PostgreSQL
+                - https://www.postgresql.org
+          roles:
             title: Roles
             data:
               - Manager
-              - Developer  
+              - Developer
 
   - title: Techlead and Developer
     company: Grupo Milà
     from: 2019-01-01
     to: 2019-11-01
-    city: Brasília
+    city: Brasilia
+    state: DF
     country: Brazil
-    description: 
-      - The Milà Group undertakes diverse Architecture and Engineering Jobs, ranging from houses to large buildings.
-      - 'Companies: https://grupoMilà.com.br/, https://www.arquiteturaemversos.com.br/.'
+    description:
+      - Undertakes AEC jobs, ranging from houses to large buildings (<a target='_blank' href='https://grupomila.com.br'>grupomila</a>, <a target='_blank' href='https://www.arquiteturaemversos.com.br'>arquiteturaemversos</a>).
     duties:
-      - Tech Lead, overseeing technical aspects and spearheading technological innovations within the team.
-      - Manager to oversee and guide the development team, ensuring efficient project execution and alignment with our strategic goals.
-      - Project reviewer, providing valuable insights and feedback for the enhancement of various company projects.
-      - Maintainer for multiple projects within the company, ensuring ongoing functionality and improvements.
-      - Hands-on developer, utilizing mostly Typescript and Python programming languages.
-        
+      title: Duties
+      data:
+        - Tech Lead, overseeing technical aspects and spearheading technological innovations within the team.
+        - Developer (Typescript, Python and SQL).
+
     jobs:
       title: Jobs
       data:
         - title: Milà Web Server
-          description: Milà web server functions as a centralized hub, managing all communication with the frontend and enabling access to a diverse range of services and toolkits. These encompass third-party services, Mila API, single sign-on strategies, cache strategies, and more.
+          description: Acts as a centralized hub, handling all communication with the frontend and facilitating access to services.
+          # These encompass third-party services, Mila API, single sign-on strategies, cache strategies, and more.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Nodejs
                 - https://nodejs.org
               - - Express
@@ -633,21 +646,21 @@ experience:
               - - Git
                 - https://git-scm.com
               - - Gitlab
-                - https://gitlab.com            
-          roles: 
+                - https://gitlab.com
+          roles:
             title: Roles
             data:
               - Developer
               - Manager
 
         - title: Milà Management Web App
-          description: The Milà Management Web App, demo access at https://ismaelpamplona.gitlab.io/mila, empowers the Collaborators Application with features to access valuable files, BI Dashboards, construction costs management feature. The APP also facilitates Admin Management of users. Unfortunately, the app is no longer active.
+          description: Provides collaborators with access to files, BI Dashboards, construction costs management feature. The APP also facilitates Admin Management of users.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Javascript
                 - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-              - - RiotJS
+              - - Riot
                 - https://riot.js.org
               - - Redux
                 - https://redux.js.org
@@ -660,15 +673,15 @@ experience:
               - - Git
                 - https://git-scm.com
               - - Gitlab
-                - https://gitlab.com            
-          tools:
-            title: Tools
-            data:
-              - - Inkscape
-                - https://inkscape.org
-              - - Gimp
-                - https://www.gimp.org
-          roles: 
+                - https://gitlab.com
+          # tools:
+          #   title: Tools
+          #   data:
+          #     - - Inkscape
+          #       - https://inkscape.org
+          #     - - Gimp
+          #       - https://www.gimp.org
+          roles:
             title: Roles
             data:
               - Developer
@@ -677,27 +690,34 @@ experience:
     company: Basso Real Estate
     from: 2017-07-01
     to: 2019-01-01
-    city: Brasília
+    city: Brasilia
+    state: DF
     country: Brazil
-    description: 
-      - Distinguished by its specialized property management services, Basso Real Estate is specialized in property rental and sales management, optimizing clients’ real estate investments.
+    description:
+      - Specialized real state management services like rental and sales management.
     duties:
-      - Hands-on developer, utilizing mostly Typescript and Python programming languages.
-    
+      title: Duties
+      data:
+        - Developer (Javascript, Python and SQL).
+        - Technology consultant.
+
     jobs:
       title: Jobs
-      data:    
-        - title: Basso's Real State Management App
-          description:  A comprehensive property management solution that streamlines all aspects of property administration, including taxes, bills, charges, tenant management, owner management, and more. It integrates with third-party platforms, enhancing rental management by facilitating complete bill issuance management. This integration ensures efficiency and accuracy in financial transactions, enhancing the overall property management experience for both property owners and tenants.
+      data:
+        - title: Management App
+          description:  Provides features to manage aspects of property administration, including taxes, bills, charges, tenant management and owner management.
+          # It integrates with third-party platforms, enhancing rental management by facilitating complete bill issuance management. This integration ensures efficiency and accuracy in financial transactions, enhancing the overall property management experience for both property owners and tenants.
           technologies:
-            title: Technologies
-            data: 
+            title: Stack
+            data:
               - - Javascript
                 - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
               - - React
                 - https://react.dev
               - - Redux
                 - https://redux.js.org
+              - - Firebase
+                - https://firebase.google.com
               - - Sass
                 - https://sass-lang.com
               - - webpack
@@ -705,71 +725,85 @@ experience:
               - - Git
                 - https://git-scm.com
               - - Gitlab
-                - https://gitlab.com    
-          tools:
-            title: Tools
-            data:
-              - - Inkscape
-                - https://inkscape.org
-              - - Gimp
-                - https://www.gimp.org
-          roles: 
+                - https://gitlab.com
+          # tools:
+          #   title: Tools
+          #   data:
+          #     - - Inkscape
+          #       - https://inkscape.org
+          #     - - Gimp
+          #       - https://www.gimp.org
+          roles:
             title: Roles
             data:
-              - Developer          
+              - Developer
 
   - title: Developer
     company: Setedezessete
     from: 2015-10-01
     to: 2017-07-01
-    city: Brasília
+    city: Brasilia
+    state: DF
     country: Brazil
-    description: 
-      - "Setedezessete is a Brazilian fashion brand specializing in exclusive design and in-house production of women's clothing: https://setedezessete.com."
+    description:
+      - "A Brazilian fashion brand specializing in exclusive design and in-house production of women's clothing: <a target='_blank' href='https://setedezessete.com'>setedezessete.com</a>."
     duties:
-      - Hands-on developer, utilizing mostly Python programming language.
-    
+      title: Duties
+      data:
+        - Developer (Javascript, Python and SQL).
+        - Technology consultant.
+
     jobs:
       title: Jobs
-      data:    
+      data:
         - title: Setedezessete Management App
-          description: A comprehensive system encompassing inventory management, efficient parts production, and seamless customer relationship management. This solution includes tailor-made order management functionality, allowing meticulous tracking of costs, monitoring the production process, and ensuring adherence to deadlines.
+          description: Provides inventory, costs, production and customer relationship management.
+          # This solution includes tailor-made order management functionality, allowing meticulous tracking of costs, monitoring the production process, and ensuring adherence to deadlines.
           technologies:
-            title: Technologies
-            data: 
-            - - Python
-              - https://www.python.org
-            - - Django
-              - https://www.djangoproject.com
-            - - MySQL
-              - https://www.mysql.com
-            - - Heroku
-              - https://www.heroku.com/home
-          tools:
-            title: Tools
+            title: Stack
             data:
-            - - Inkscape
-              - https://inkscape.org
-            - - Gimp
-              - https://www.gimp.org
-          roles: 
+              - - Javascript
+                - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+              - - Python
+                - https://www.python.org
+              - - Django
+                - https://www.djangoproject.com
+              - - MySQL
+                - https://www.mysql.com
+              - - Heroku
+                - https://www.heroku.com/home
+              - - Git
+                - https://git-scm.com
+              - - Github
+                - https://github.com
+          # tools:
+          #   title: Tools
+          #   data:
+          #   - - Inkscape
+          #     - https://inkscape.org
+          #   - - Gimp
+          #     - https://www.gimp.org
+          roles:
             title: Roles
             data:
             - Developer
 
-  - title: Investor
-    company: Vendji
-    from: 2013-01-01
-    to: 2015-01-01
-    city: Brasília
-    country: Brazil
-    description: 
-      - Vendji was a company that developed software consolidating catalogs from various companies like Natura, Boticario, Avon into a single place. 
-      - It enabled direct sales representatives to offer their customers products from multiple brands through an up-to-date catalog. 
-      - Vendji facilitated credit card payments and streamlined the order process directly within the platform.
-    duties: 
-      - Contributed as an early-stage investor, providing vital financial support and strategic insights.
+  # - title: Investor
+  #   company: Vendji
+  #   from: 2013-01-01
+  #   to: 2015-01-01
+  #   city: Brasilia
+  #   country: Brazil
+  #   description:
+  #     - Vendji was a company that developed software consolidating catalogs from various companies like Natura, Boticario, Avon into a single place.
+  #     - It enabled direct sales representatives to offer their customers products from multiple brands through an up-to-date catalog.
+  #     - Vendji facilitated credit card payments and streamlined the order process directly within the platform.
+  #   duties:
+  #     title: Duties
+  #     data:
+  #       - Contributed as an early-stage investor, providing vital financial support and strategic insights.
 
 
 
-        
+
+
