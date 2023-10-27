@@ -19,3 +19,5 @@
     4. Save as pdf
     5. Format dates like this "(MM/YYYY" or "Month, Year")
 - [ ] review keywords
+- [x] make Ivan's corrections
+- [ ] add more cwnt projects
