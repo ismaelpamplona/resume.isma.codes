@@ -1,7 +1,7 @@
 ---
 title:
   name: Ismael Pamplona
-  position: Software Engineer and Rust Enthusiast
+  position: Software Engineer with 10+ years of experience and Rust Enthusiast
 
 contact:
   title: Contact
@@ -59,8 +59,8 @@ languages:
 about:
   title: About me
   data:
-    - With over a decade of experience in the technology industry, I'm an curious engineer, constantly learning and adapting. From Operations to Backend and Frontend roles, I've led teams and embraced diverse responsibilities. My experience as a founder instilled a knack for marrying promising tech with business value.
-    - For the past 5 years, I've specialized in customer-centric web apps on cloud servers. The agility of crafting various applications, combined with my thirst for depth, empowers me to continually captivate users. I've written plenty of Python, Typescript, and various other technologies throughout my career, but when I discovered Rust a couple of years ago, I immediately fell in love with it.
+    - I'm a curious engineer with over a decade of experience in the technology industry, constantly learning and adapting. From Operations to Backend and Front-end roles, I've led teams up to 30 people and embraced diverse responsibilities, from management to programing. My experience as a company founder instilled an aptitude for marrying promising tech with business value.
+    - For the past 5 years I've specialized in customer-centric web apps on cloud servers. The agility of crafting various applications, combined with my thirst for in-depth knowledge, empowers me to continually captivate users. I've written plenty of Python, Typescript, and other technologies throughout my career, but when I discovered Rust a couple of years ago, I immediately fell in love with it.
 
 stack:
   title: Daily Technology Stack
@@ -98,27 +98,26 @@ experience:
   title: Work Experience
   data:
   - title: Co-founder and Software Developer
+    show: true
     company: cwnt.io
+    link: ''
     from: 2021-08-01
     to: Present
     city: Brasilia
     state: DF
     country: Brazil
     description:
-      - An IT company specializing in investment management, utilizing mathematical and statistical methodologies to design and execute cutting-edge investment algorithms, primarily written in Rust, with a focus on the web3 market (<a target='_blank' href='https://cwnt.io'>cwnt.io</a>).
-      # - CWNT.io is at the forefront of leveraging technology to navigate the financial market, with a particular focus on the rapidly evolving web3 market.
-      # - The core competence lies in automating financial operations across a diverse range of assets, predominantly within the dynamic web market.
+      - An IT company specializing in investment management through cutting-edge investment algorithms designed and executed utilizing dense mathematical and statistical methodologies. Algorithms are primarily written in Rust, with a focus on the web3 market (<a target='_blank' href='https://cwnt.io'>cwnt.io</a>).
     duties:
       title: Duties
       data:
-        - One of the two founders of CWNT, contributing to its establishment and growth.
-        - Rust developer.
+        - Co-founder along with <a target='_blank' href='https://gubasso.xyz/'>Gustavo Basso</a>, responsible for maintaining and developing applications and algorithms in Rust.
 
     jobs:
       title: Jobs
       data:
         - title: Rip Issue
-          description: "Open-source Rust-based CLI tool designed for agile management workflows. It facilitates efficient tracking and management of issues utilizing the filesystem and git (<a target='_blank' href='https://crates.io/crates/ripissue'>crates.io/crates/ripissue</a>)"
+          description: "Open-source Rust-based CLI tool designed for agile management workflows. It facilitates efficient tracking and management utilizing the filesystem and git (<a target='_blank' href='https://crates.io/crates/ripissue'>crates.io/crates/ripissue</a>)."
           technologies:
             title: Stack
             data:
@@ -126,8 +125,8 @@ experience:
                 - https://www.rust-lang.org
               - - Git
                 - https://git-scm.com
-              - - Github
-                - https://github.com
+              # - - Github
+                # - https://github.com
 
           roles:
             title: Roles
@@ -135,7 +134,9 @@ experience:
               - Developer
 
   - title: Co-founder, CTO and Software Developer
+    show: true
     company: Planfy
+    link: 'https://www.planfy.com.br'
     from: 2022-01-01
     to: Present
     city: Brasilia
@@ -149,7 +150,7 @@ experience:
     duties:
       title: Duties
       data:
-        - Co-founder and CTO and co-responsible for fundraising efforts.
+        - Co-founder, CTO and co-responsible for fundraising efforts.
         - Developer (Typescript, Python and SQL).
 
     jobs:
@@ -191,8 +192,8 @@ experience:
             data:
               - Manager
 
-        - title: Mobile App
-          description: Supports end-users on financial planning in the Brazilian Open Finance Ecosystem.
+        - title: Mobile and Web Apps
+          description: Mobile app aids users in financial planning within Brazilian Open Finance. Web app assists advisors in guiding clients towards goals, financial independence, and security (<a target='blank' href='https://www.app.planfy.com.br'>app.planfy</a>).
           # , including goal-based life planning, finance management, debt handling, and investment tracking.
           technologies:
             title: Stack
@@ -213,39 +214,14 @@ experience:
                 - https://vitejs.dev
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
               - Manager
-
-        - title: Web App
-          description: Aids advisors in guiding clients towards life goals, financial security, and independence (<a target='blank' href='www.app.planfy.com.br'>app.planfy</a>).
-          # Features include lead/prospect management, proposal handling, portfolio performance tracking, client management, life planning, education, file library, and goal calculators for various objectives.
-          technologies:
-            title: Stack
-            data:
-              - - Nodejs
-                - https://nodejs.org
-              - - Svelte
-                - https://svelte.dev
-              - - Typescript
-                - https://www.typescriptlang.org
-              - - Sass
-                - https://sass-lang.com
-              - - Docker
-                - https://www.docker.com
-              - - Vite
-                - https://vitejs.dev
-              - - Git
-                - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
-          roles:
-            title: Roles
-            data:
               - Developer
+
 
         - title: Web server
           description: Acts as a centralized hub, handling all communication with the frontend and facilitating access to services.
@@ -267,16 +243,16 @@ experience:
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
-              - - Azure SQL DB
-                - https://azure.microsoft.com/en-us/products/azure-sql/database
+              # - - Azure SQL DB
+                # - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -298,8 +274,8 @@ experience:
                 - https://www.postgresql.org
               - - AWS S3
                 - https://aws.amazon.com/s3
-              - - Azure SQL DB
-                - https://azure.microsoft.com/en-us/products/azure-sql/database
+              # - - Azure SQL DB
+                # - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - AWS Deequ
@@ -330,8 +306,8 @@ experience:
                 - https://greatexpectations.io
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
 
           roles:
             title: Roles
@@ -357,14 +333,14 @@ experience:
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
-              - - Azure SQL DB
-                - https://azure.microsoft.com/en-us/products/azure-sql/database
+              # - - Azure SQL DB
+                # - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -380,15 +356,17 @@ experience:
               - - Typescript
                 - https://www.typescriptlang.org
               - - SvelteAWS RDS
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
               - Developer
 
   - title: CTO and Software Developer
+    show: true
     company: Grupo Sozo
+    link: 'https://www.gruposozo.com.br'
     from: 2019-11-01
     to: 2021-12-01
     city: Brasilia
@@ -411,7 +389,7 @@ experience:
       title: Jobs
       data:
         - title: VLGI Asset Rest API
-          description: It serves internal and end-user-facing solutions.
+          description: Serves internal and end-user-facing solutions.
           technologies:
             title: Stack
             data:
@@ -429,16 +407,16 @@ experience:
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
-              - - Azure SQL DB
-                - https://azure.microsoft.com/en-us/products/azure-sql/database
+              # - - Azure SQL DB
+                # - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -446,7 +424,7 @@ experience:
               - Developer
 
         - title: VLGI HUB Web App
-          description:  Provides collaborators with access to files, BI Dashboards, customer data, performance strategies features, educational platform, and more (<a target='_blank' href='https://hub.vlgi.com'>hub.vlgi.com</a>).
+          description:  Provides collaborators with access to files, BI dashboards, customer data, performance kpis, educational platform (<a target='_blank' href='https://hub.vlgi.com'>hub.vlgi.com</a>).
           # It integrates Super Ranking (SR) methodology, aligning strategy with team goals, encouraging engagement, data-driven management, and eligibility for partnership recognition. The API allows Admin Management and seamless integration with the .
           technologies:
             title: Stack
@@ -465,8 +443,8 @@ experience:
                 - https://webpack.js.org
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -474,7 +452,7 @@ experience:
               - Developer
 
         - title: VLGI Investimentos Rest API
-          description: It serves internal and end-user-facing solutions.
+          description: Serves internal and end-user-facing solutions.
           technologies:
             title: Stack
             data:
@@ -490,16 +468,16 @@ experience:
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
-              - - Azure SQL DB
-                - https://azure.microsoft.com/en-us/products/azure-sql/database
+              # - - Azure SQL DB
+                # - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -525,16 +503,16 @@ experience:
                 - https://aws.amazon.com/elasticloadbalancing
               - - AWS S3
                 - https://aws.amazon.com/s3
-              - - Azure SQL DB
-                - https://azure.microsoft.com/en-us/products/azure-sql/database
+              # - - Azure SQL DB
+                # - https://azure.microsoft.com/en-us/products/azure-sql/database
               - - AWS RDS
                 - https://aws.amazon.com/rds
               - - AWS Beanstalk
                 - https://aws.amazon.com/elasticbeanstalk
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -542,7 +520,7 @@ experience:
               - Developer
 
         - title: Mobile APP
-          description: Provides exclusive features for VLGI clients, encompassing podcasts, news (M1M / VLGI News), an events agenda, and a discount club.
+          description: Provides exclusive features for VLGI clients, encompassing podcasts, financial news, events agenda, and a discount club.
           # Although the first version was completed, the company made a decision to not release the app to the public.
           technologies:
             title: Stack
@@ -553,8 +531,8 @@ experience:
                 - https://svelte.dev
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -579,32 +557,13 @@ experience:
                 - https://www.heroku.com/home
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
-          roles:
-            title: Roles
-            data:
-              - Manager
-              - Developer
-
-        - title: M1M Rest API
-          description: Provides real-time financial news access.
-          technologies:
-            title: Stack
-            data:
-              - - Nodejs
-                - https://nodejs.org
+              # - - Gitlab
+                # - https://gitlab.com
               - - Strapi
                 - https://strapi.io
               - - Graphql
                 - https://graphql.org
-              - - Heroku
-                - https://www.heroku.com/home
               - - RSS
-              - - Git
-                - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
               - - PostgreSQL
                 - https://www.postgresql.org
           roles:
@@ -614,7 +573,9 @@ experience:
               - Developer
 
   - title: Techlead and Developer
+    show: false
     company: Grupo Milà
+    link: 'https://grupomila.com.br'
     from: 2019-01-01
     to: 2019-11-01
     city: Brasilia
@@ -645,8 +606,8 @@ experience:
                 - https://www.mongodb.com
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           roles:
             title: Roles
             data:
@@ -672,8 +633,8 @@ experience:
                 - https://webpack.js.org
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           # tools:
           #   title: Tools
           #   data:
@@ -687,7 +648,9 @@ experience:
               - Developer
 
   - title: Developer
+    show: false
     company: Basso Real Estate
+    link: ''
     from: 2017-07-01
     to: 2019-01-01
     city: Brasilia
@@ -724,8 +687,8 @@ experience:
                 - https://webpack.js.org
               - - Git
                 - https://git-scm.com
-              - - Gitlab
-                - https://gitlab.com
+              # - - Gitlab
+                # - https://gitlab.com
           # tools:
           #   title: Tools
           #   data:
@@ -739,7 +702,9 @@ experience:
               - Developer
 
   - title: Developer
+    show: false
     company: Setedezessete
+    link: 'https://setedezessete.com'
     from: 2015-10-01
     to: 2017-07-01
     city: Brasilia
@@ -774,8 +739,8 @@ experience:
                 - https://www.heroku.com/home
               - - Git
                 - https://git-scm.com
-              - - Github
-                - https://github.com
+              # - - Github
+                # - https://github.com
           # tools:
           #   title: Tools
           #   data:
@@ -788,20 +753,22 @@ experience:
             data:
             - Developer
 
-  # - title: Investor
-  #   company: Vendji
-  #   from: 2013-01-01
-  #   to: 2015-01-01
-  #   city: Brasilia
-  #   country: Brazil
-  #   description:
-  #     - Vendji was a company that developed software consolidating catalogs from various companies like Natura, Boticario, Avon into a single place.
-  #     - It enabled direct sales representatives to offer their customers products from multiple brands through an up-to-date catalog.
-  #     - Vendji facilitated credit card payments and streamlined the order process directly within the platform.
-  #   duties:
-  #     title: Duties
-  #     data:
-  #       - Contributed as an early-stage investor, providing vital financial support and strategic insights.
+  - title: Investor
+    show: false
+    company: Vendji
+    link: ''
+    from: 2013-01-01
+    to: 2015-01-01
+    city: Brasilia
+    country: Brazil
+    description:
+      - Vendji was a company that developed software consolidating catalogs from various companies like Natura, Boticario, Avon into a single place.
+      - It enabled direct sales representatives to offer their customers products from multiple brands through an up-to-date catalog.
+      - Vendji facilitated credit card payments and streamlined the order process directly within the platform.
+    duties:
+      title: Duties
+      data:
+        - Contributed as an early-stage investor, providing vital financial support and strategic insights.
 
 
 

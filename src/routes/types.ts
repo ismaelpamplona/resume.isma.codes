@@ -1,6 +1,8 @@
 export type WorkExperience = {
   title: string;
+  show: boolean;
   company: string;
+  link: string;
   from: string;
   to: string;
   city: string;

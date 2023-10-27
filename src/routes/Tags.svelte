@@ -6,7 +6,7 @@
 </script>
 
 <ul class="tags">
-  {#if title !== ''}
+  {#if title}
     {title}:
   {/if}
 
@@ -43,8 +43,9 @@
 
     li {
       list-style: none;
-      padding: 0 3px;
+      padding: 2px 3px;
       border-radius: 5px;
+      line-height: 13px;
     }
 
     .tag-tech {

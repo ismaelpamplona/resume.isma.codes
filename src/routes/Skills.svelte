@@ -43,9 +43,9 @@
 
     const lowerYear = Math.floor(monthsDiff / 12)
     const upperYear = Math.ceil(monthsDiff / 12)
-    let ans = lowerYear !== upperYear ? `${lowerYear}-${upperYear} years` : `${lowerYear} years`
+    let ans = lowerYear !== upperYear ? `${lowerYear}-${upperYear}` : `${lowerYear}`
 
-    return lowerYear !== upperYear ? `${lowerYear}-${upperYear} years` : `${lowerYear} years`
+    return lowerYear !== upperYear ? `${lowerYear}-${upperYear}` : `${lowerYear}`
   }
 
   const mapToArray = (map: Map<string, info>): string[][] => {
@@ -74,7 +74,7 @@
   })
 </script>
 
-<h2>Tech Stack, Tools & Skills</h2>
+<h2 class="header">Tech Stack, Tools & Skills | <span>&nbsp years of experience</span></h2>
 <div class="container">
   <Tags bind:data={technologies} type="tech" />
   <Tags bind:data={tools} type="tool" />
@@ -82,6 +82,15 @@
 </div>
 
 <style lang="scss">
+  .header {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 13px;
+      text-transform: lowercase;
+    }
+  }
   .container {
     display: flex;
     flex-direction: column;
